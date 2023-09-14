@@ -1,0 +1,45 @@
+.datailDark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 1, 36);
+    height: 85vh;
+    & .datailH1{
+        color: white;
+    } & .datailDiv{
+        border-color: white;
+    } & .iconH2{
+        color: white;
+    }
+}
+.datailLight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+}
+
+.datailH1{
+    text-align: center;
+    font-size: 20px;
+}
+.datailDiv{
+    border: solid 1.5px black;
+    padding: 0.7rem 2rem;
+    border-radius: 7px;
+}
+
+.datailH2{
+    color: rgb(250, 80, 80);
+    text-align: center;
+
+}
+.iconH2{
+    font-size: 17px;
+    text-align: end;
+}
+
+.icon{
+    font-size: 15px;
+    margin-right: 5px;
+}
